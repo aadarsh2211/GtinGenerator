@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NotAvailable from "./notAvailable";
+import NotAvailable from "./NotAvailable";
 export default function Footer() {
     const [showNotAvailable, setShowNotAvailable] = useState(false);
     const facebookBtnRef = React.useRef(null);
