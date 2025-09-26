@@ -7,9 +7,9 @@ function App() {
   const types = ['GTIN-14', 'GTIN-12', 'GTIN-13', 'GTIN-8'];
 
   return (
-    <div className="min-h-screen bg-slate-500">
+    <div className="min-h-screen flex flex-col bg-slate-500">
       <Header />
-      <div className="flex flex-wrap justify-center gap-4 px-4">
+      <div className="flex-1 flex flex-wrap justify-center gap-4 px-4">
         {types.map((type) => (
           <GtinCard key={type} type={type} />
         ))}
