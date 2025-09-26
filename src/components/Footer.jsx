@@ -26,7 +26,7 @@ export default function Footer() {
         };
     }, [showNotAvailable]);
     return (
-    <footer className="bg-blue-100 py-6 mt-30 text-center w-full">
+    <footer className="bg-blue-100 py-6 mt-31 text-center w-full">
             <div className="flex justify-center gap-6 mb-2">
                 <a href="https://instagram.com/aadarsh.js" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     
